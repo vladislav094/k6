@@ -1,0 +1,14 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/sourcehut-build-0.65.0.json": "file:///home/useradmin/k6/.github/workflows.yaml",
+        "https://json.schemastore.org/eslintrc.json": "file:///home/useradmin/k6/.github/main.yaml"
+    },
+    
+    "files.associations": {
+        "*.yml": "yaml"
+    },
+
+    "[yaml]": {
+        "editor.autoIndent": "advanced"
+    }
+}

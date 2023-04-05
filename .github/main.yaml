@@ -1,0 +1,10 @@
+name: Testing workflow
+on: [push, workflow_dispatch]
+
+jobs:
+  test:
+    name: Run load test
+    runs-on: 
+    
+    
+    
