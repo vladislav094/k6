@@ -4,7 +4,14 @@ on: [push, workflow_dispatch]
 jobs:
   test:
     name: Run load test
-    runs-on: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Run k6 local test
+        uses: k6io/action@v0.1
+        with:
+          filename: script.js
     
     
     
