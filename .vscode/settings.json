@@ -1,14 +1,23 @@
 {
     "yaml.schemas": {
-        "https://json.schemastore.org/sourcehut-build-0.65.0.json": "file:///home/useradmin/k6/.github/workflows.yaml",
-        "https://json.schemastore.org/eslintrc.json": "file:///home/useradmin/k6/.github/main.yaml"
+        "Kubernetes": "*.yaml",
+        "https://json.schemastore.org/sourcehut-build-0.65.0.json": [
+            "file:///home/useradmin/k6/.github/workflows.yaml"
+        ],
+        "https://json.schemastore.org/eslintrc.json": "file:///home/useradmin/k6/.github/main.yaml",
+        "https://json.schemastore.org/github-action.json": "file:///home/useradmin/k6/.github/workflows/main.yaml"
     },
     
     "files.associations": {
         "*.yml": "yaml"
     },
-
+    
     "[yaml]": {
         "editor.autoIndent": "advanced"
+    },
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path.linux": "/home/useradmin/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.kubectl-path.linux": "/home/useradmin/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.helm-path.linux": "/home/useradmin/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
     }
 }
